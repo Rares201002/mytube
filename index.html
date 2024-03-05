@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Posting Platform</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MyTube</h1>
+    </header>
+
+    <main>
+        <section id="upload">
+            <h2>Upload Video</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="videoFile" accept="video/*">
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section id="videos">
+            <h2>Posted Videos</h2>
+            <div id="videoList">
+                <!-- Display posted videos here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MyTube</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
